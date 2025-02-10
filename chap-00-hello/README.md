@@ -1,8 +1,8 @@
-## build complierer 
-rustc <file for complied>
+## build compiler 
+rustc hello.rs
 
 ## run complied
-./main
+./hello
 
 ## build cargo package manager
 cargo <name pkg>

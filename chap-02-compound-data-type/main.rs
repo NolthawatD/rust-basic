@@ -25,7 +25,7 @@ fn main() {
 
 	let animal_slices: &[&str] = &["Lion", "Elephant", "Crocodile"];
 	println!("Animal Slice: {:?}", animal_slices);
-
+<>
 	let book_slices: &[&String] = &[&"IT".to_string(), &"Harry Potter".to_string(), &"ZEN".to_string()];
 	println!("Number Slice: {:?}", book_slices);
 
