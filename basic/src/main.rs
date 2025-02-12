@@ -1,26 +1,13 @@
 // no display warning
 #![allow(unused_variables)]
 
+mod ownership;
+
 fn main() {
 	println!("Hello, World");
-	let n1 = 1;
-    let n2 = 2;
-	ex1_1();
-	println!();
-	println!();
-}
+	ownership::test1();
+}	
 
-fn ex1_1() {
-    let n3 = 3;
-	ex1_2();
-	println!();
-	println!();
-}
-
-fn ex1_2() {
-    let n4 = 4;
-	println!();
-}
 
 // cargo new basic
 // cargo check 
