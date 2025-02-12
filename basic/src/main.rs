@@ -2,10 +2,12 @@
 #![allow(unused_variables)]
 
 mod ownership;
+mod heap;
 
 fn main() {
 	println!("Hello, World");
 	ownership::test1();
+	heap::test1();
 }	
 
 

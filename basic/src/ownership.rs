@@ -1,5 +1,6 @@
 
 pub fn test1() {
+	println!("\n\nOwnership");
     let mut n1 = 1;
     let n2 = &mut n1;
     *n2 = 20;
