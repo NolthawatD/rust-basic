@@ -3,11 +3,13 @@
 
 mod ownership;
 mod heap;
+mod references_borrowing;
 
 fn main() {
 	println!("Hello, World");
 	ownership::test1();
 	heap::test1();
+	references_borrowing::test1();
 }	
 
 
