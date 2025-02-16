@@ -23,26 +23,26 @@ fn main() {
     heap::test1();
     references_borrowing::test1();
 
-	basic_syntax()
+    basic_syntax()
 }
 
 /**
-Topic
-	Variable
-	Tuple
-	Array
-	If
-	Loop
-	For
-	String
-	Vec
-	HashMap
-	Struct
-	Module
-	Trait
-	Enum
-	Closure
- */
+   Topic
+   - Variable
+   - Tuple
+   - Array
+   - If
+   - Loop
+   - For
+   - String
+   - Vec
+   - HashMap
+   - Struct
+   - Module
+   - Trait
+   - Enum
+   - Closure
+*/
 
 fn basic_syntax() {
     //Variables
